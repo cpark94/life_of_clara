@@ -45,19 +45,21 @@ body.landing {
 
 }
 
+
 .intro-content {
   position: absolute;
+  text-align: center;
   background-position: center center;
   font-weight: 100;
   padding: 6.0rem;
   display: table;
-  width: 50%;
+  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  text-align: center;
-  left: 22.2rem;
-}
+
+  }
+
 
 .blog-posts {
   position: relative;
@@ -76,6 +78,8 @@ body.landing {
   padding: 2rem;
   text-align: center;
 
-
 }
 
+.post .post-title {
+  font-size: 1.0rem;
+}
